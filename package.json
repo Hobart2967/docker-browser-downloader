@@ -1,7 +1,6 @@
 {
   "name": "playwright-downloader",
   "version": "0.0.1",
-  "type": "module",
   "dependencies": {
     "playwright": "^1.55.0"
   }
