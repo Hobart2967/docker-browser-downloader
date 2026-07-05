@@ -6,7 +6,7 @@ WORKDIR /app
 COPY package.json /app/package.json
 RUN npm install
 
-COPY ./test.js /app/download.js
+COPY ./download.js /app/download.js
 COPY ./curl-browser /usr/local/bin/curl-browser
 RUN chmod a+x /usr/local/bin/curl-browser
 
